@@ -1,0 +1,30 @@
+# create TensorFlow folder in wd
+
+# create venv in wd and activate
+python -m venv tf_api_env
+source tf_api_env/bin/activate
+
+# install tensorflow
+pip install tensorflow == 2.3
+
+# clone repo
+git clone https://github.com/tensorflow/models.git
+
+# compile files in protoc (in Tensorflow directory)
+protoc/bin/protoc research/object_detection/protos/*.proto --python_out=.
+# if run in "No file" error, change "import" statements in protoc files to from import object_detection/~ to import research/object_detection/~
+
+# install COCO API (in TensorFlow directory)
+pip install cython
+git clone https://github.com/cocodataset/cocoapi.git
+cd cocoapi/PythonAPI
+make
+cp -r pycocotools ./models/research/ # replace . with file path to models/research/
+
+# set up Object Detection API (in models/research directory)
+cp object_detection/packages/tf2/setup.py .
+python -m pip install .
+
+# if error install try
+pip install --upgrade numpy
+pip install pyparsing==2.4.2
