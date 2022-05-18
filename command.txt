@@ -1,3 +1,4 @@
+# FOR SETTING UP API
 # create TensorFlow folder in wd
 
 # create venv in wd and activate
@@ -28,3 +29,5 @@ python -m pip install .
 # if error install try
 pip install --upgrade numpy
 pip install pyparsing==2.4.2
+# if "no module named 'research' error, go into files to manually delete "research." from import statements
+
