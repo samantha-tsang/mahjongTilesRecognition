@@ -1,1 +1,6 @@
 # mahjongTilesRecognition![download](https://user-images.githubusercontent.com/103795204/171565631-18154fa2-8d04-4204-8191-f4d4bdc9356c.png)
+![download (1)](https://user-images.githubusercontent.com/103795204/171565783-19632ade-ac08-4137-a2e6-7f38a7e2619a.png)
+![download (2)](https://user-images.githubusercontent.com/103795204/171565871-983500e8-afb6-4e13-ab9f-b954d59f2a4a.png)
+![download (3)](https://user-images.githubusercontent.com/103795204/171565896-5b198f64-2903-48ba-99b0-40037764e0a8.png)
+![download (4)](https://user-images.githubusercontent.com/103795204/171565918-7c122c72-45c4-4c3b-8b70-75a1b954361a.png)
+![download (5)](https://user-images.githubusercontent.com/103795204/171565956-2f4632a6-fa2c-4b94-b808-7ef0d2afb025.png)
